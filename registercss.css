@@ -1,0 +1,524 @@
+
+
+
+/*###############   Defaults   ##########*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav,
+header,
+body,
+footer{
+    display: block;
+    height:100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg,#ffffff,#d7e1ec);
+}
+
+body{
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  background-image: url(minimal.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+label{
+    font-size: 35px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*###############  End of Defaults   ##########*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########### Rows and Columns concept    #################*/
+
+.row{
+    width: 100%;
+    display: flex;   
+    flex-wrap: wrap;
+    align-items: center ;
+
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+  
+}
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+
+
+
+div.logo{
+ padding: 12px;
+}
+
+
+/* .col-4{
+    font-size: 13px;
+}
+
+.col-7{
+    font-size: 18px;
+} */
+
+
+
+/*########### End of Rows and Columns concept    #################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*########### Logo and heading of page     #################*/
+
+.heading{
+    display: block;
+    background-color: #00004d  ;
+    padding: 7px 70px 7px 0px;
+  
+}
+
+.heading .col-9 h1{
+    font-size: 48px;
+    
+    color:  #d6d6c2;
+}
+.heading .col-2 h1{
+
+    color: #d6d6c2;
+    font-size: 29px;
+}
+
+
+
+/*########### End of Logo and heading of page     #################*/
+
+
+
+
+
+
+
+
+/*############ Nav Bar  ######*/
+nav{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul{
+    background-color:	#cccccc;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px 0px 5px 100px;
+     
+}
+
+ ul.topnav li{
+    list-style: none;
+    float: left;
+    
+    
+}
+ul.topnav li.topnav-right{
+    
+    float: right;
+    padding-right: 0px;
+   
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding:14px ;
+    text-transform: uppercase;
+    color:#666;
+}
+
+
+ul li a:hover{
+    background-color: #666;
+    color:#eee;
+}
+
+
+/*################# End of Navigation Bar    #############*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#################registration form    ################*/
+.reg-form{
+    padding: 50px;
+}
+.regform{
+    width: 800px;
+    background-color: rgb(0,0,0,.6);
+    margin: auto;
+    color: blanchedalmond;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.main{
+    background-color:rgb(0,0,0,0.5) ;
+    width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+form{
+    padding:10px ;
+}
+
+#name{
+    width: 100%;
+    height: 600px;
+
+}
+
+.name{
+    margin-left:30px ;
+    margin-top:30px;
+    width: 125px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.firstname{
+    position: relative;
+    left:170px ;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    outline: none;
+}
+.lastname{
+    position: relative;
+    left:500px;
+    top: -97px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+    outline: none;
+
+}
+
+
+.firstlabel{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 20px;
+    left: 200px;
+    top:-15px
+}
+
+
+.lastlabel{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 20px;
+    left: 550px;
+    top:-77px
+}
+
+.email{
+    position: relative;
+    left: 170px;
+    top: -50px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 2px 4px 2px 6px;
+    outline: none;
+}
+
+.number{
+    position: relative;
+    left: 170px;
+    top: -30px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 2px 4px 2px 6px;
+    outline: none;
+}
+
+
+.option{
+    position: relative;
+    left: 170px;
+    top: -37px;
+    line-height: 40px;
+    width: 332px;
+    height: 40px;border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+
+}
+.option option{
+    font-size: 20px;
+}
+
+
+button{
+    background-color:#4CAF50;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    border-radius: 12px;
+    border:2px solid #4CAF50;
+    padding: 14px 70px;
+    outline: none; 
+    color: whirer;
+    transition: 0.25px;
+}
+
+
+
+.button{
+    margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reg-form .col-5{
+    padding: 30px;
+    background: rgb(0,0,0,0.5);
+color:  #ffffcc;
+border-radius: 6px;
+}
+
+
+.instruction-heading{
+    font-size: 20px;
+}
+.side-heading{
+    font-size: 25px;
+    line-height: 40px;
+}
+.matter{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+/*######################## footer section    #########################*/
+.footsy{
+    background-color: thistle;
+    padding: 0px 0px 20px 10px;
+    margin: 0px;
+
+}
+.footsy h1{
+    padding: 10px 10px 2px 30px;
+    text-transform: uppercase;
+   color: teal; 
+
+}
+
+
+.footer{
+    display: inline-flex;
+
+    width: 100%;
+    padding: 20px;
+    
+}
+
+
+.footer .icon{
+    margin:0px 20px;
+    cursor: pointer;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.footer  .icon span{
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+
+}
+.footer  .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+
+
+}
+.footer a i {
+    transition:all 0.3s linear ;
+}
+
+
+.footer a:hover i {
+ transform:  scale(1.4);
+}
+/* 
+.footer .icon .tooltip{
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    position: relative;
+    
+} */
+
+.fa-instagram{
+    color: #e84393;
+}
+
+
+.fa-envelope{
+    color: #e84118;
+}
+
+
+.fa-linkedin{
+    color: #0097e6;
+}
+
+
+
+.fa-twitter{
+    color: #0097e6;
+}
+
+
+.fa-facebook{
+    color: #0066cc;
+}
+
+
+.footsy p{
+    float: right;
+    color:#00004d ;
+}
+
+
+
+
+
+/*########################   End of  footer section    #########################*/
